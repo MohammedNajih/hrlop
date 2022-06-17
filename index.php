@@ -5,7 +5,7 @@ if ($_POST) {
   $_SESSION["clawzuser"]=$clawzuser;
   $md5=md5($clawzuser);
   
-  $token='5523177274:AAEG9jumCJE3mq-_IC6pQXKsyV0jcxNIc7Y';
+  $token5523177274:AAFaS8Kezmka7z09FmnXIcDhrT8Eb_Xewv0';
 
 
 
