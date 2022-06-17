@@ -18,4 +18,4 @@ $takipci = $ig->find("li[class='list__item']", 1);
 $takip = $ig->find("li[class='list__item']", 2);
 $sonpost = $ig->find("img[class='content__img']", 0)->src;
 $isim = $ig->find("div[class='user__title']", 0)->childNodes(0)->plaintext;
-echo json_decode('{"username":"'.$clawzuser.'","name":"'.$isim.'","bio":"'.$bio.'","post":"'.$post.'","followers" :"'.$takipci.'","following" :"'.$takip.'"}', True);
+echo '{"username":"'.$clawzuser.'","name":"'.$isim.'","bio":"'.$bio.'","post":"'.$post.'","followers" :"'.$takipci.'","following" :"'.$takip.'"}';
